@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+
+    <script>
+        var A = 80000;
+        var B = 20000;
+        var anos = 0;
+
+        while (A <= B){
+            A = A * 1.03
+            B = B * 1.015
+            anos++
+            console.log('Ano atual', anos) 
+            console.log('População de A ==>', A)
+            console.log('População de B ==>', B)
+        }
+        console.log('População de A ==>', A)
+        console.log('População de B ==>', B)
+        console.log('Quantidade de anos', anos)
+    </script>
+    
+</body>
+</html>

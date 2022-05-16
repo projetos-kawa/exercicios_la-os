@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <!--Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja
+        inválido e continue pedindo até que o usuário informe um valor válido-->
+
+        <script>
+        
+        var nota = prompt("Digite uma nota")
+
+         if( nota >= 0 && nota <=10){
+           
+            alert("OK")
+
+         }
+         while( nota> 10){ 
+
+            alert("Faz o bagulho certo dessa vez")
+            var nota = prompt("Digite uma nota")
+         }
+          
+         if( nota >= 0 && nota <=10){
+          
+            alert("Correto")
+            
+         }
+
+         
+    
+       </script>
+</body>
+</html>

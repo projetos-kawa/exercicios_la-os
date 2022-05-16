@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <script>
+
+ 
+   
+    //PROMPT
+
+        let A = Number(prompt('Habitantes do país A'));
+        let porA = Number(prompt('Porcentagem de crescimento do país A'));
+
+        let B = Number(prompt('Habitantes do país B'));
+        let porB = Number(prompt('Porcentagem de crescimento do país B'));
+        
+        let anos = 0
+
+        while (A < B){
+            A += (A / 100) * porA;
+            B += (B / 100) * porB;
+            anos++
+        }
+        document.write(`Terão se passado ${anos} anos para que a população A se iguale ou ultrapasse a população B.`)
+
+    </script>
+</body>
+</html>
