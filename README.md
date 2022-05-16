@@ -1,1 +1,1 @@
-# exercicios_la-os
+# exercicios_lacos
